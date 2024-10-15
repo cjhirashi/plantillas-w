@@ -18,6 +18,8 @@ selector {
 
 ### Ejemplo:
 
+```css
+
 css
 h1 {
     color: blue;
@@ -33,6 +35,8 @@ h1 {
     border: 1px solid black;
     margin: 15px;
 }
+
+```
 
 
 En este ejemplo, los estilos se aplican a un encabezado de nivel 1 (h1), a todos los elementos con la clase claseEjemplo, y a un elemento con el ID idEjemplo. Si tienes alguna otra duda sobre CSS, ¡pregunta sin problemas!
