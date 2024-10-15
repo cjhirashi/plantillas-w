@@ -47,11 +47,13 @@ En este ejemplo, los estilos se aplican a un encabezado de nivel 1 `<h1>`, a tod
 ## ATRIBUTOS
 
 ### 1. *Color y Fondo*
-> **color**: Establece el color del texto.
-> **background-color**: Establece el color del fondo.
-> **background-image**: Establece una imagen como fondo.
-> **background-repeat**: Controla la repetición de la imagen de fondo.
-> **background-position**: Establece la posición de la imagen de fondo.
+> - **color**: Establece el color del texto.
+>
+> - **background-color**: Establece el color del fondo.
+>
+> - **background-image**: Establece una imagen como fondo.
+> - **background-repeat**: Controla la repetición de la imagen de fondo.
+> - **background-position**: Establece la posición de la imagen de fondo.
 
 ### 2. *Tipografía*
 
