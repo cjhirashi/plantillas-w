@@ -1,0 +1,40 @@
+{
+    "sistemas": [
+        {
+            "nombre": "Sistema A",
+            "detalle": {
+                "descripcion": "Descripción del control que opera el Sistema A.",
+                "puntos_control": ["Punto de Control 1", "Punto de Control 2", "Punto de Control 3"],
+                "imagen": "pantalla_sistema_a.png",
+                "diagramas": [
+                    "diagrama_conexion_a1.png",
+                    "diagrama_conexion_a2.png"
+                ]
+            }
+        },
+        {
+            "nombre": "Sistema B",
+            "detalle": {
+                "descripcion": "Descripción del control que opera el Sistema B.",
+                "puntos_control": ["Punto de Control A", "Punto de Control B", "Punto de Control C"],
+                "imagen": "pantalla_sistema_b.png",
+                "diagramas": [
+                    "diagrama_conexion_b1.png",
+                    "diagrama_conexion_b2.png"
+                ]
+            }
+        },
+        {
+            "nombre": "Sistema C",
+            "detalle": {
+                "descripcion": "Descripción del control que opera el Sistema B.",
+                "puntos_control": ["Punto de Control A", "Punto de Control B", "Punto de Control C"],
+                "imagen": "pantalla_sistema_b.png",
+                "diagramas": [
+                    "diagrama_conexion_b1.png",
+                    "diagrama_conexion_b2.png"
+                ]
+            }
+        }
+    ]
+}

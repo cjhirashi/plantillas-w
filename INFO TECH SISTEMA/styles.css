@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+header {
+    background: #1e1e1e; /* Color de fondo del encabezado */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #64b5f6; /* Color de enlace claro */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #64b5f6; /* Color de encabezados */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e1e; /* Color de fondo del pie de página */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilos para formularios */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #444; /* Borde oscuro */
+    background: #1e1e1e; /* Fondo oscuro para inputs */
+    color: #e0e0e0; /* Texto claro en inputs */
+}
+
+button {
+    background: #64b5f6; /* Color del botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    header {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
+
+.logo {
+    font-size: 2rem;
+    font-we
+    color: #71717a;
+}

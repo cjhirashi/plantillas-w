@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNES | Docs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+
+    <!-- ENCABEZADO -->
+    <div class="logo">Sistema de Control</div>
+    <img src="./img/logo/logo_cliente.png" width="200" alt="Logo INNES Aire">
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#info-tecnica">Información Técnica</a></li>
+            <li><a href="#sistemas">Sistemas</a></li>
+            <li><a href="#manual">Manual de Operación</a></li>
+            <li><a href="#soporte">Soporte</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+   
+    <section id="inicio">
+        <h1>Sistema de Control de Aire Acondicionado</h1>
+        <p>Descripción breve del sistema y sus funcionalidades.</p>
+    </section>
+
+    <section id="info-tecnica">
+        <h2>Información Técnica</h2>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Buscar información...">
+        </div>
+        <div class="info-content">
+            <h3>Descripción General</h3>
+            <p>Aquí va la descripción general del sistema.</p>
+            <h3>Componentes del Sistema</h3>
+            <p>Lista de componentes y sus descripciones.</p>
+            <h3>Especificaciones Técnicas</h3>
+            <p>Detalles técnicos del sistema.</p>
+            <h3>Diagramas de Funcionamiento</h3>
+            <img src="diagrama.png" alt="Diagrama de Funcionamiento">
+        </div>
+    </section>
+
+    <section id="sistemas">
+        <h2>Sistemas</h2>
+        <ul id="sistemas-list"></ul>
+    </section>
+    
+
+    <section id="manual">
+        <h2>Manual de Operación</h2>
+        <h3>Tabla de Contenido</h3>
+        <ul>
+            <li><a href="#seccion1">Sección 1</a></li>
+            <li><a href="#seccion2">Sección 2</a></li>
+        </ul>
+        <h3>Documentos Descargables</h3>
+        <a href="manual.pdf" download>Descargar Manual en PDF</a>
+    </section>
+
+    <section id="soporte">
+        <h2>Soporte</h2>
+        <h3>Preguntas Frecuentes</h3>
+        <p>Aquí van las preguntas frecuentes.</p>
+        <h3>Formulario de Contacto</h3>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: contacto@sistema.com</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mi Sistema de Control</p>
+    <a href="#">Política de Privacidad</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
