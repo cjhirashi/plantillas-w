@@ -1,6 +1,6 @@
-Q: Muestrame la sintaxys de CSS
+# ATIBUTOS CSS
 
-A: Claro, aquí tienes la sintaxis básica de CSS:
+## Estructura de datos
 
 css
 selector {
