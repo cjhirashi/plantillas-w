@@ -109,7 +109,7 @@ La propiedad box-shadow se utiliza para agregar sombras a los elementos. Los val
 > 4. ***Extensión (spread)*** (opcional) | px | Un valor positivo aumentará el tamaño, mientras que un negativo lo reducirá
 > 5. ***Color*** | Puedes usar nombres de color, hexadecimal, RGB, RGBA, HSL o HSLA.
 
-### *Ejemplo:*
+### *Ejemplo*
 ```css
 box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.5);
 ```
@@ -128,8 +128,148 @@ La propiedad filter se utiliza para aplicar efectos gráficos a los elementos. A
 > 8. ***saturate(300%)*** | Ajusta la saturación
 > 9. ***sepia(100%)*** | Aplica un efecto sepia
 
-### *Ejemplo:*
+### *Ejemplo*
 ```css
 filter: blur(5px) brightness(150%);
 ```
+
+## Atributos - Tranformación
+
+La propiedad transform en CSS se utiliza para aplicar transformaciones 2D y 3D a un elemento. 
+A continuación, se detallan los valores y funciones que puedes usar en los parámetros de transformación:
+
+### Transformaciones 2D
+
+#### 1. ***translate()***
+
+Mueve un elemento en el plano XY.
+
+> **VALORES**
+> - translate(x, y) o translateX(x) / translateY(y)
+> - Valores: pueden ser en píxeles (px), porcentajes (%) o unidades como em/rem.
+##### *Ejemplo* 
+```css
+transform: translate(50px, 100px);
+```
+
+
+#### 2. ***scale()***
+
+Cambia el tamaño de un elemento.
+
+> **VALORES**
+> - scale(x, y) o scaleX(x) / scaleY(y)
+> - Valores: pueden ser números (1 para tamaño original, >1 para aumentar, <1 para reducir).
+##### *Ejemplo* 
+```css
+transform: scale(1.5, 2);
+```
+
+#### 3. ***rotate()***
+
+Rota un elemento alrededor de su origen (0, 0).
+
+> **VALORES**
+> - rotate(angle)
+> - Valores: puede ser en grados (deg), radianes (rad) o turnos (turn).
+##### *Ejemplo*
+```css
+transform: rotate(45deg);
+```
+
+#### 4. ***skew()***
+
+Inclina un elemento a lo largo de los ejes X y Y.
+
+> **VALORES**
+> - skew(x-angle, y-angle) o skewX(x-angle) / skewY(y-angle)
+> - Valores: en grados (deg).
+##### *Ejemplo* 
+```css
+transform: skew(30deg, 20deg);
+```
+
+#### 5. ***matrix()***
+
+Permite aplicar múltiples transformaciones en una sola función utilizando una matriz 2D.
+
+> **VALORES**
+> - matrix(a, b, c, d, e, f)
+##### *Ejemplo*
+```css
+transform: matrix(1, 0, 0, 1, 100, 200);
+```
+
+
+### Transformaciones 3D
+
+#### 1. ***translateZ()***
+
+Mueve un elemento a lo largo del eje Z.
+
+##### *Ejemplo* 
+```css
+transform: translateZ(100px);
+```
+
+#### 2. ***scaleZ()***
+
+Cambia el tamaño de un elemento a lo largo del eje Z.
+
+##### *Ejemplo* 
+```css
+transform: scaleZ(1.5);
+```
+
+
+#### 3. ***rotateX()***
+
+Rota un elemento alrededor del eje X.
+
+##### *Ejemplo* 
+```css
+transform: rotateX(45deg);
+```
+
+#### 4. ***rotateY()***
+
+Rota un elemento alrededor del eje Y.
+
+##### *Ejemplo* 
+```css
+transform: rotateY(45deg);
+```
+
+#### 5. ***rotateZ()*** 
+
+Rota un elemento alrededor del eje Z (equivalente a rotate() en 2D).
+
+##### *Ejemplo* 
+```css
+transform: rotateZ(45deg);
+```
+
+#### 6. ***perspective()*** 
+
+Define una perspectiva para las transformaciones 3D. Debe aplicarse sobre el contenedor.
+
+##### *Ejemplo*
+```css
+perspective(500px)
+```
+
+### Combinación de Transformaciones
+
+Puedes combinar múltiples transformaciones en una sola declaración transform. Se ejecutarán en el siguiente orden:
+
+> - *translate*
+> - *scale*
+> - *rotate*
+> - *skew*
+
+##### *Ejemplo*
+```css
+transform: translate(50px, 50px) scale(1.5) rotate(45deg);
+```
+
 
