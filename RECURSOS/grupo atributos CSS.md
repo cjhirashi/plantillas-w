@@ -1,3 +1,93 @@
+## Atributos - Propiedades de Caja
+
+En CSS, los parámetros de caja y espaciado son fundamentales para controlar la apariencia y la disposición de un elemento en la página. Aquí te detallo los valores más comunes que se pueden manejar:
+
+### 1. **Box Model**
+
+El modelo de caja en CSS incluye el content, padding, border y margin.
+
+> **VALORES**
+> - *width* y *height* | (px), (%), rem, etc | Definen el tamaño del content.
+
+##### *Ejemplo* 
+```css
+width: 200px; height: 100px;
+```
+> **VALORES**
+> - *padding* | (px), (%), rem, etc | Espaciado interno entre el contenido y el borde del elemento.
+
+##### *Ejemplo*
+```css
+padding: 10px; o padding: 5px 10px; (arriba y abajo, izquierda y derecha).
+```
+ 
+> **VALORES**
+> - *border* | border: <width> <style> <color> | Define el borde alrededor del elemento.
+
+##### *Ejemplo*
+```css
+border: 2px solid #000;
+```
+
+> **VALORES**
+> - *margin* | (px), (%), rem, etc | Espaciado externo entre el borde del elemento y otros elementos.
+
+##### *Ejemplo*
+```css
+margin: 20px; /*todo*/
+margin: 10px 15px; /*arriba y abajo | izquierda y derecha*/
+margin: 2px 4px 6px 8px; /*arriba | derecha | abajo | izquierda*/
+```
+
+## Atributos - Espaciado (Espaciado Interior y Exterior)
+
+### 2. **Propiedades de Espaciado**
+
+> **VALORES**
+> - *margin*: Espacio exterior.
+> - margin-top, margin-right, margin-bottom, margin-left
+##### *Ejemplo* 
+```css
+margin-top: 10px;
+```
+    
+> **VALORES**
+> - *padding*: Espacio interior.
+> - padding-top, padding-right, padding-bottom, padding-left
+
+##### *Ejemplo* 
+```css
+padding-bottom: 15px;
+```
+    
+> **VALORES**
+> - *box-shadow*: Para agregar sombras alrededor de la caja.
+> - Valores: igual que box-shadow mencionado antes.
+
+##### *Ejemplo*
+```css
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+```
+
+### *Ejemplo* 
+
+```css
+.element {
+    width: 300px;
+    height: 200px;
+    padding: 20px;         /* Espaciado interno */
+    margin: 10px 15px;    /* Espaciado externo */
+    border: 2px solid #333; /* Borde sólido */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+```
+
+### Notas Finales
+
+- Aquellos elementos en CSS generalmente respetan el modelo de cajas, lo que significa que cualquier estilo que apliques impactará su tamaño, espaciado y presentación general en la página.
+- Considera también el *modelo de caja* (box-sizing: content-box; o box-sizing: border-box;) para controlar cómo se calculan el ancho y la altura en funciones del padding y borde.
+
+
 ## Atributos - **Borde**
 
 En CSS, el atributo border permite definir bordes para los elementos de tu página. Puedes controlar diferentes aspectos del borde, 
@@ -19,14 +109,14 @@ border-width: 2px 4px 6px 8px; /* Superior | Derecho | Inferior | Izquierdo */
 Define el estilo del borde. 
 > **VALORES**
 > - none | Sin borde.
-> - solid: Borde sólido.
-> - dashed: Borde discontinuo.
-> - dotted: Borde de puntos.
-> - double: Borde doble.
-> - groove: Borde en relieve.
-> - ridge: Borde elevado.
-> - inset: Borde con efecto de inserción.
-> - outset: Borde con efecto de salida.
+> - solid | Borde sólido.
+> - dashed | Borde discontinuo.
+> - dotted | Borde de puntos.
+> - double | Borde doble.
+> - groove | Borde en relieve.
+> - ridge | Borde elevado.
+> - inset | Borde con efecto de inserción.
+> - outset | Borde con efecto de salida.
 
 ```css
 border-style: solid; /* Un borde sólido */
