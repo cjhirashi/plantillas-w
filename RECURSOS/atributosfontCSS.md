@@ -7,17 +7,59 @@ Define la familia de fuentes a usar.
 > - Comillas para nombres con espacios: "Open Sans", "Courier New".
 > - Genérico: serif, sans-serif, monospace, cursive, fantasy.
 
-### ***font-size:***
-Especifica el tamaño de la fuente.
-> **VALORES**
-> - Unidades absolutas: px, pt, in, cm, mm.
-> - Unidades relativas: em, rem, %, vw, vh.
+### 2. *font-size*
+> Especifica el tamaño de la fuente.
+> 1. Especifica el tamaño del texto con cualquiera de las siguiente dedidas (px, pt, in, cm, mm, em, rem, %, vw, vh).
+> ```css
+> font-size: 16px;
+> ```
 
-### ***font-weight***
-Define el grosor de la fuente.
-> **VALORES**
-> - Números: 100, 200, 300, 400, 500, 600, 700, 800, 900.
-> - Palabras clave: normal, bold, bolder, lighter.
+### 3. *font-weight*
+> Define el grosor de la fuente.
+> 1. Grosor lighter, este valor le da un grado de grosos menor al del padre
+> ```css
+> font-weight: normal;
+> ```
+> 2. Este valor le da un grado de grosos menor al del padre.
+> ```css
+> font-weight: lighter;
+> ```
+> 3. Este valor le da un grosor bold al texto.
+> ```css
+> font-weight: bold;
+> ```
+> 4. Este valor le da un grado de grosos mayor al del padre.
+> ```css
+> font-weight: bolder;
+> ```
+> 5. Grosos por valor numérico.
+> ```css
+> font-weight: 100;
+> ```
+> ```css
+> font-weight: 200;
+> ```
+> ```css
+> font-weight: 300;
+> ```
+> ```css
+> font-weight: 400;
+> ```
+> ```css
+> font-weight: 500;
+> ```
+> ```css
+> font-weight: 600;
+> ```
+> ```css
+> font-weight: 700;
+> ```
+> ```css
+> font-weight: 800;
+> ```
+> ```css
+> font-weight: 900;
+> ```
 
 ### 4. *font-style*
 > Especifica el estilo de la fuente.
